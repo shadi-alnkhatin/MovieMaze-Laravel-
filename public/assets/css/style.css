@@ -7,42 +7,40 @@
   box-sizing: border-box;
 }
 :root {
-  /* colours */
-  --background: #0f1115;
-  --banner-background: #313036;
-  --white-alpha-20: #ffffff33;
-  --on-background: #e5eeff;
-  --on-surface: #eae5ff;
-  --on-surface-variant: #6f6f71;
-  --primary: #db0028;
-  --primary-variant: #d82c4b;
-  --rating-color: #fab700;
-  --surface: #1a1820;
-  --text-color: #959499;
-  --white: #ffffff;
+    /* Colours */
+    --background: #121826;
+    --banner-background: #2b3a4a;  /* Darker blue-gray for banners */
+    --white-alpha-20: #ffffff33;
+    --on-background: #e5f1ff;      /* Light blue for text */
+    --on-surface: #d0e3ff;
+    --on-surface-variant: #7f8fa6;  /* Softer blue-gray for variants */
+    --primary: #1a73e8;            /* Main primary blue */
+    --primary-variant: #1259c7;    /* Slightly darker primary variant */
+    --rating-color: #ffd700;       /* Keeping rating color golden */
+    --surface: #1c2733;            /* Dark blue surface background */
+    --text-color: #9aaab8;         /* Lighter blue-gray for text */
+    --white: #ffffff;
 
-  /* gradient colors */
-  --bottom-overlay: 180deg, rgba(26, 24, 32, 0), rgb(26, 24, 32);
+    /* Gradient colors */
+    --bottom-overlay: 180deg, rgba(28, 39, 51, 0), rgb(28, 39, 51);
 
-  /* TYPOGRAPHY */
+    /* Typography remains unchanged */
+    --ff-dm-sans: "DM Sans", sans-serif;
 
-  /* font family */
-  --ff-dm-sans: "DM Sans", sans-serif;
+    /* Font size */
+    --fs-heading: 4rem;
+    --fs-title-lg: 2.6rem;
+    --fs-title: 2rem;
+    --fs-body: 1.8rem;
+    --fs-button: 1.5rem;
+    --fs-label: 1.4rem;
 
-  /* font size */
-  --fs-heading: 4rem;
-  --fs-title-lg: 2.6rem;
-  --fs-title: 2rem;
-  --fs-body: 1.8rem;
-  --fs-button: 1.5rem;
-  --fs-label: 1.4rem;
+    /* Font weight */
+    --weight-bold: 700;
 
-  /* font weight */
-  --weight-bold: 700;
-
-  /* shadow */
-  --shadow-1: 0 1px 4px rgba(0, 0, 0, 0.75);
-  --shadow-2: 0 2px 4px rgba(220, 53, 69, 0.3);
+    /* Shadow */
+    --shadow-1: 0 1px 4px rgba(0, 0, 0, 0.75);
+    --shadow-2: 0 2px 4px rgba(26, 115, 232, 0.3);
 
   /* border radius */
   --radius-4: 4px;
