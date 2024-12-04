@@ -9,16 +9,16 @@
 :root {
     /* Colours */
     --background: #121826;
-    --banner-background: #2b3a4a;  /* Darker blue-gray for banners */
+    --banner-background: #2b3a4a;  
     --white-alpha-20: #ffffff33;
-    --on-background: #e5f1ff;      /* Light blue for text */
+    --on-background: #e5f1ff;
     --on-surface: #d0e3ff;
-    --on-surface-variant: #7f8fa6;  /* Softer blue-gray for variants */
-    --primary: #1a73e8;            /* Main primary blue */
-    --primary-variant: #1259c7;    /* Slightly darker primary variant */
-    --rating-color: #ffd700;       /* Keeping rating color golden */
-    --surface: #1c2733;            /* Dark blue surface background */
-    --text-color: #9aaab8;         /* Lighter blue-gray for text */
+    --on-surface-variant: #7f8fa6;
+    --primary: #1a73e8;
+    --primary-variant: #1259c7;
+    --rating-color: #ffd700;
+    --surface: #1c2733;
+    --text-color: #9aaab8;
     --white: #ffffff;
 
     /* Gradient colors */
